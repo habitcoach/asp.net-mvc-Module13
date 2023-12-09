@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module13", "Module13\Module13.csproj", "{F48C9BED-33C0-4738-9A39-DDB53DABB579}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCapi", "MVCapi\MVCapi.csproj", "{8B3C7D9C-F760-4660-8438-1B44F7C27B5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCapiConsume", "MVCapiConsume\MVCapiConsume.csproj", "{E63B7044-FCA7-4744-9244-6F4F6C66111C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F48C9BED-33C0-4738-9A39-DDB53DABB579}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F48C9BED-33C0-4738-9A39-DDB53DABB579}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F48C9BED-33C0-4738-9A39-DDB53DABB579}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F48C9BED-33C0-4738-9A39-DDB53DABB579}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B3C7D9C-F760-4660-8438-1B44F7C27B5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B3C7D9C-F760-4660-8438-1B44F7C27B5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B3C7D9C-F760-4660-8438-1B44F7C27B5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B3C7D9C-F760-4660-8438-1B44F7C27B5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E63B7044-FCA7-4744-9244-6F4F6C66111C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E63B7044-FCA7-4744-9244-6F4F6C66111C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E63B7044-FCA7-4744-9244-6F4F6C66111C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E63B7044-FCA7-4744-9244-6F4F6C66111C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B7CE44CB-11FB-4FEC-A3E5-72AD56BBA5A3}
+	EndGlobalSection
+EndGlobal

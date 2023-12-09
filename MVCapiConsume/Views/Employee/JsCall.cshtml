@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>API Consumer</title>
+</head>
+<body>
+
+    <h1>Employee API Consumer</h1>
+
+    <div id="output"></div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Function to fetch data from the API
+            function fetchData(url, callback) {
+                fetch(url)
+                    .then(response => response.json())
+                    .then(data => callback(data))
+                    .catch(error => console.error('Error:', error));
+            }
+
+            // Function to display data in the output div
+            function displayData(data) {
+                var outputDiv = document.getElementById('output');
+                outputDiv.innerHTML = '<h2>Employees:</h2>';
+
+                data.forEach(employee => {
+                    outputDiv.innerHTML += `<p>${employee.name} - ${employee.address} - ${employee.phone}</p>`;
+                });
+            }
+
+            // Call the API endpoint to get employees
+            fetchData('https://localhost:7109/api/employee', displayData);
+        });
+    </script>
+
+</body>
+</html>
